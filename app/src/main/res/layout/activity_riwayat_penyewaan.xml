@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BFA6">
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="wrap_content"
+        android:layout_height="650dp"
+        android:background="@drawable/greensolid"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="78dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:background="#00BFA6"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="672dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton27"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_bg"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/arrow"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/contacts"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Belum ada proses penyewaan"
+        android:textColor="#000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton28"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_bg"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/homepage"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="674dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton29"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_bg"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/location"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="674dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton30"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_bg"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/history"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="674dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton31"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_bg"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/profile"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="674dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Riwayat Pemesanan"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:background="#E1F9ED"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Penyewaan"
+        android:textIsSelectable="true"
+        android:textSize="14dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E1F9ED"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Riwayat"
+        android:textIsSelectable="true"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

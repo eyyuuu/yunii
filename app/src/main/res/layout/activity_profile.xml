@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1F9ED">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Profile"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="30dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/greensolid"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/chat"
+        tools:layout_editor_absoluteX="325dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="0.5dp"
+        android:background="@drawable/btn_bg"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="80dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/profile"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="130dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="140dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="314dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="177dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="408dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="486dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/rightarrow"
+        tools:layout_editor_absoluteX="302dp"
+        tools:layout_editor_absoluteY="408dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/rightarrow"
+        tools:layout_editor_absoluteX="302dp"
+        tools:layout_editor_absoluteY="486dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:background="#00BFA6"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="661dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_bg"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/homepage"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="665dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_bg"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/location"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="665dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_bg"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/history"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="665dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton21"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_bg"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/profile"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="665dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
