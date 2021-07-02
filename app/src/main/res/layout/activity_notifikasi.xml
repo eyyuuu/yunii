@@ -9,105 +9,70 @@
     <View
         android:id="@+id/view13"
         android:layout_width="wrap_content"
-        android:layout_height="650dp"
+        android:layout_height="675dp"
+        android:layout_marginTop="64dp"
         android:background="@drawable/greensolid"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="80dp"
-        tools:ignore="MissingConstraints" />
-
-    <View
-        android:id="@+id/view14"
-        android:layout_width="wrap_content"
-        android:layout_height="65dp"
-        android:background="@drawable/btn_bg"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="665dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <ImageButton
         android:id="@+id/imageButton47"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/btn_bg"
         android:padding="5dp"
         android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="13dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView41"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="30dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Notifikasi"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48"
         app:srcCompat="@drawable/notification"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="287dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView42"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="181dp"
-        tools:layout_editor_absoluteY="430dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins"
+        android:text="belum ada notifikasi"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
         tools:ignore="MissingConstraints" />
 
-    <ImageButton
-        android:id="@+id/imageButton48"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/btn_bg"
-        android:padding="5dp"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/homepage"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="670dp"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/imageButton49"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/btn_bg"
-        android:padding="5dp"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/location"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="670dp"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/imageButton50"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/btn_bg"
-        android:padding="5dp"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/history"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="670dp"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/imageButton51"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/btn_bg"
-        android:padding="5dp"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/profile"
-        tools:layout_editor_absoluteX="312dp"
-        tools:layout_editor_absoluteY="670dp"
-        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
