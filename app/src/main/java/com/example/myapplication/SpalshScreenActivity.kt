@@ -20,7 +20,7 @@ class SpalshScreenActivity : AppCompatActivity() {
         // we used the postDelayed(Runnable, time) method
         // to send a message with a delayed time.
         Handler().postDelayed({
-            val intent = Intent(this, MenuUtamaActivity::class.java)
+            val intent = Intent(this, NotifikasiActivity::class.java)
             startActivity(intent)
             finish()
         }, 3000) // 3000 is the delayed time in milliseconds.
