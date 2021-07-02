@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "913881366070",
+    "project_id": "yuni-aafc8",
+    "storage_bucket": "yuni-aafc8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913881366070:android:bfb98b4044a74fb2e16297",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913881366070-f1rjqaa26pfqtkki2gv3bg6j1j4bokk7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "7ec512d651431b526551bdc8e2abe7dcf068068f"
+          }
+        },
+        {
+          "client_id": "913881366070-rjhertustpuo28od5jh323uc58hb125r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiCuITCqLDowM4uDeRfNRQK6U8t6Ps46c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913881366070-rjhertustpuo28od5jh323uc58hb125r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

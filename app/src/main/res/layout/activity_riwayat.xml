@@ -9,125 +9,100 @@
     <View
         android:id="@+id/view8"
         android:layout_width="wrap_content"
-        android:layout_height="650dp"
+        android:layout_height="680dp"
+        android:layout_marginTop="64dp"
         android:background="@drawable/greensolid"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="77dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <ImageButton
         android:id="@+id/imageButton32"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/btn_bg"
         android:padding="5dp"
         android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="16dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView38"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="32dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="22dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Riwayat Penyewaan"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="116dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        app:tabTextColor="#000">
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="255dp"
-        tools:layout_editor_absoluteY="116dp"
-        tools:ignore="MissingConstraints" />
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Penyewaan"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Riwayat"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+    </com.google.android.material.tabs.TabLayout>
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:layout_marginTop="212dp"
         android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/history1"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="204dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView40"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="342dp"
-        tools:ignore="MissingConstraints" />
-
-    <View
-        android:id="@+id/view9"
-        android:layout_width="wrap_content"
-        android:layout_height="65dp"
-        android:background="#00BFA6"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="662dp"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/imageButton33"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/btn_bg"
-        android:padding="5dp"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/homepage"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="668dp"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/imageButton34"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/btn_bg"
-        android:padding="5dp"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/location"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="668dp"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/imageButton35"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/btn_bg"
-        android:padding="5dp"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/history"
-        tools:layout_editor_absoluteX="226dp"
-        tools:layout_editor_absoluteY="668dp"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/imageButton36"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/btn_bg"
-        android:padding="5dp"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/profile"
-        tools:layout_editor_absoluteX="319dp"
-        tools:layout_editor_absoluteY="668dp"
+        android:fontFamily="@font/poppins"
+        android:text="Belum ada proses penyewaan"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.038"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
