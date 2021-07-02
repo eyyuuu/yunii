@@ -16,7 +16,8 @@ class LoginActivity : AppCompatActivity() {
         val btnEnter = findViewById<Button>(R.id.btnEnter)
 
         btnEnter.setOnClickListener {
-            Toast.makeText(this, "Succes", Toast.LENGTH_SHORT).show()
+            val email = edtEmail.text
+            Toast.makeText(this, email, Toast.LENGTH_SHORT).show()
         }
     }
 }
