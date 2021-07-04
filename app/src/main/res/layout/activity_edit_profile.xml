@@ -97,7 +97,8 @@
         android:inputType="textPersonName"
         android:text="    "
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="377dp" />
+        tools:layout_editor_absoluteY="377dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView5"
