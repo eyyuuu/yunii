@@ -56,16 +56,16 @@
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/edt_full_name"
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/button"
         android:ems="10"
         android:fontFamily="@font/poppins"
-        android:hint="     Enter your full name "
+        android:hint="Enter your full name "
         android:inputType="textPersonName"
-        android:padding="5dp"
+        android:padding="15dp"
         android:textColorHint="#655F5F"
         android:textSize="14dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,63 +75,63 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/edt_email"
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/button"
         android:ems="10"
         android:fontFamily="@font/poppins"
-        android:hint="     Enter your email"
+        android:hint="Enter your email"
         android:inputType="textPersonName"
-        android:padding="5dp"
+        android:padding="15dp"
         android:textColorHint="#655F5F"
         android:textSize="14dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText6"
+        app:layout_constraintTop_toBottomOf="@+id/edt_full_name"
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/edt_ppassword"
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/button"
         android:ems="10"
         android:fontFamily="@font/poppins"
-        android:hint="     Enter  password"
+        android:hint="Enter  password"
         android:inputType="textPersonName"
-        android:padding="5dp"
+        android:padding="15dp"
         android:textColorHint="#655F5F"
         android:textSize="14dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+        app:layout_constraintTop_toBottomOf="@+id/edt_email" />
 
 
     <EditText
-        android:id="@+id/editText9"
+        android:id="@+id/edt_confirm_password"
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/button"
         android:ems="10"
         android:fontFamily="@font/poppins"
-        android:hint="     Confirm password "
+        android:hint="Confirm password "
         android:inputType="textPersonName"
-        android:padding="5dp"
+        android:padding="15dp"
         android:textColorHint="#655F5F"
         android:textSize="14dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText5" />
+        app:layout_constraintTop_toBottomOf="@+id/edt_ppassword" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_register"
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
@@ -144,7 +144,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText9" />
+        app:layout_constraintTop_toBottomOf="@+id/edt_confirm_password" />
 
     <TextView
         android:id="@+id/textView8"
@@ -158,10 +158,10 @@
         android:textColor="#000"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_register" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/btn_signin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="168dp"
@@ -172,5 +172,5 @@
         android:textColor="#03DAC5"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_register" />
 </androidx.constraintlayout.widget.ConstraintLayout>

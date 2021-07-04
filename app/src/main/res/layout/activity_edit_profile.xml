@@ -92,13 +92,12 @@
         android:layout_height="40dp"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
-        android:layout_marginTop="8dp"
         android:background="@drawable/button"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="    "
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        tools:layout_editor_absoluteY="377dp" />
 
     <TextView
         android:id="@+id/textView5"
@@ -107,21 +106,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
         android:layout_marginTop="36dp"
-        android:fontFamily="@font/pt_serif_caption"
-        android:text="Nama Lengkap"
-        android:textColor="#00BFA6"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        tools:ignore="DuplicateIds" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="36dp"
-        android:fontFamily="@font/pt_serif_caption"
+        android:fontFamily="@font/pt_serif"
         android:text="Nama Lengkap"
         android:textColor="#00BFA6"
         app:layout_constraintStart_toStartOf="parent"

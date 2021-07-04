@@ -102,4 +102,12 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00BFA6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/bottonmenu" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
