@@ -1,24 +1,24 @@
 package com.example.myapplication
 
-import FirstFragment
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.widget.ImageButton
 import androidx.fragment.app.Fragment
+import com.example.myapplication.fragment.bottomNavigation.FragmentHistory
+import com.example.myapplication.fragment.bottomNavigation.FragmentMenuUtama
+import com.example.myapplication.fragment.bottomNavigation.FragmentProfile
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_menu_utama.*
 
 class MenuUtamaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu_utama)
 
-        val fragmentMenuUtama=FragmentMenuUtama()
-        val fragmentHistory=FragmentHistory()
-        val fragmentProfile=FragmentProfile()
+        val fragmentMenuUtama=
+            FragmentMenuUtama()
+        val fragmentHistory=
+            FragmentHistory()
+        val fragmentProfile=
+            FragmentProfile()
         val navigasi = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
 
         setCurrentFragment(fragmentMenuUtama)

@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.fragment.bottomNavigation
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,7 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
-import kotlinx.android.synthetic.main.fragment_menu_utama.*
+import com.example.myapplication.PilihBarangActivity
+import com.example.myapplication.R
 
 /**
  * A simple [Fragment] subclass.
@@ -64,7 +65,8 @@ class FragmentMenuUtama : Fragment() {
 
         val lainnya = view.findViewById<ImageButton>(R.id.lainnya)
         lainnya.setOnClickListener {
-            val intentlainya = Intent(context,PilihBarangActivity::class.java)
+            val intentlainya = Intent(context,
+                PilihBarangActivity::class.java)
             intentlainya.putExtra(PIL_BARANG, "lainnya")
             startActivity(intentlainya)
         }
